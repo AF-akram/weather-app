@@ -30,6 +30,5 @@ OpenStreetMap Nominatim – Converts city names into latitude and longitude.
 Akram AFOUFOU
 # GitHub: 
 AF-akram
-This project is open source and available under the MIT License.
 # Live demo : 
 [https://weather-app-five-beryl-40.vercel.app]
