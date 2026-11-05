@@ -14,7 +14,7 @@ export default function MyInput() {
     return (
         <div style={{display:"flex",justifyContent:"space-between",alignItems:"center"}} >
           <input value={Input} type='text' placeholder='Please type a city' style={{
-            background: "#56a6e3",
+            background: "white",
             borderRadius: "10px",
             border: "1px black solid",
             color: "white",
