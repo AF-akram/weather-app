@@ -16,6 +16,7 @@ export default function MyCard() {
         desc: "couds",
         icon:"04n"
     })
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
         // https://nominatim.openstreetmap.org/search?q=${city}&format=json
             axios
@@ -38,7 +39,8 @@ export default function MyCard() {
             console.log("Request completed");
             console.log(place)
         });
-    }, [city])
+    }, [city]); // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
         // `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=e5ad1c9275ce8ab7969f04289581296a`
         // key : e5ad1c9275ce8ab7969f04289581296a
