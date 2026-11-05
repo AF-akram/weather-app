@@ -17,7 +17,7 @@ export default function MyInput() {
             background: "white",
             borderRadius: "10px",
             border: "1px black solid",
-            color: "white",
+            color: "black",
             width: "304px",
             padding:"10px"
             }}
